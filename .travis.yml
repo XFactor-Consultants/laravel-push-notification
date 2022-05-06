@@ -4,7 +4,6 @@ language: php
 branches:
   only:
     - master
-    - laravel5
     
 php: 
   - 5.6

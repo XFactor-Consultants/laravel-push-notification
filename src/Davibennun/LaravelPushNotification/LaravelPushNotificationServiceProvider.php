@@ -13,16 +13,6 @@ class LaravelPushNotificationServiceProvider extends ServiceProvider {
     protected $defer = false;
 
     /**
-     * Bootstrap the application events.
-     *
-     * @return void
-     */
-    public function boot()
-    {
-        $this->package('davibennun/laravel-push-notification');
-    }
-
-    /**
      * Register the service provider.
      *
      * @return void

@@ -8,12 +8,6 @@ Installation
 
 Update your `composer.json` file to include this package as a dependency
 
-Laravel 5 & Lumen
-
-```json
-"turbo124/laravel-push-notification": "dev-laravel5"
-```
-Laravel 4.*
 ```json
 "turbo124/laravel-push-notification": "dev-master"
 ```
@@ -38,14 +32,8 @@ Alias the PushNotification facade by adding it to the aliases array in the `app/
 
 Copy the config file into your project by running: (Lumen users skip this)
 
-Laravel 5
 ```php
 php artisan vendor:publish --provider="Davibennun\LaravelPushNotification\LaravelPushNotificationServiceProvider" --tag="config"
-```
-
-Laravel 4.*
-```
-php artisan config:publish davibennun/laravel-push-notification
 ```
 
 This will generate a config file like this
@@ -64,6 +52,7 @@ array(
     )
 );
 ```
+
 Where all first level keys corresponds to an service configuration, each service has its own properties, android for instance have `apiKey` and IOS uses `certificate` and `passPhrase`. You can set as many services configurations as you want, one for each app.
 
 ##### Dont forget to set `service` key to identify IOS `'service'=>'apns'` and Android `'service'=>'gcm'`

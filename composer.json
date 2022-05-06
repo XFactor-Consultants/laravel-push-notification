@@ -1,11 +1,15 @@
 {
-    "name": "turbo124/laravel-push-notification",
+    "name": "xfactor/laravel-push-notification",
     "description": "Laravel package to send push notifications to mobile devices (apns, gcm)",
-     "keywords": ["apns","gcm","push","notification", "laravel"],
+    "keywords": ["apns","gcm","push","notification", "laravel"],
     "authors": [
         {
             "name": "DaviBenNun",
             "email": "davi@andradenunes.org"
+        },
+        {
+            "name": "Colin McNeil",
+            "email": "cmcneil@xfactorconsultants.com"
         }
     ],
     "require": {
