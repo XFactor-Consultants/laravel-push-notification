@@ -27,6 +27,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/turbo124/NotificationPusher"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:XFactor-Consultants/ZendService_Apple_Apns.git"
         }
     ]
 }
